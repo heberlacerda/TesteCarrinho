@@ -1,0 +1,105 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  }
+
+  .button {
+    background-color: white;
+    border: 2px solid #3b74f2;
+    padding: 16px 32px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  a {
+    color: #3b74f2;
+  }
+  
+  
+  .containerProduct{
+  
+    display: flex;
+    flex-direction: row
+  }
+  
+  .product{
+  
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+  }
+  
+  .imageProduct{
+    width:100px;
+    height: 100px;
+    border: 1px solid;
+    margin:15px;
+    border-color: rgb(196,196,196);
+  }
+  
+  .productName{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .priceProduct{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(165,165,165);
+  }
+  
+  .containerTotalizador{
+  
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 14px;
+  margin-right: 14px;
+  }
+  
+  .line{
+    width: 100%;
+    color:rgb(196,196,196)
+  }
+  
+  .containerLine{
+    display: flex;
+    width: 100%;
+  }
+  
+  
+  .containerTotalName{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+  
+  .containerMsg{
+  background-color: rgb(199 255 166);
+  border-radius: 12px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  color: #217c17;
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+  }
+  
+  .containerButton{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .btnFinalizar{
+  background-color: #3b74f2;
+  border-radius: 15px;
+  height: 50px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  border-color: transparent;
+  }
